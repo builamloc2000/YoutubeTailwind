@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .icon{
+        @apply w-6 h-6;
+    }
+    .side_bar_icon{
+        @apply w-6 h-6 mr-5;
+    }
+    
+}
+@layer layout{
+    .side_bar_layout{
+        @apply flex pl-3 pr-3 w-[204px] h-10 items-center;
+    }
+}
